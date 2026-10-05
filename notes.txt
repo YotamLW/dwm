@@ -1,0 +1,16 @@
+To recompile after making changes : `sudo make clean install`
+
+Files :
+`dwm.c` - main code
+`config.h` - config file | `config.def.h` - default config template
+`config.mk` - build config for make | `Makefile` build instructions
+`drw.*` - drawing / rendering jazz
+`util.*` - utility jazz
+`dwm.1` - manual page
+`transient.c` - pop-up windows
+
+Keybinds to avoid :
+- Ctrl + Alt + <Function Key> (switches virtual tty consoles)
+- Ctrl + Alt + Delete (triggers system reboot)
+- Alt + SysRq + <Key> (SysRq is on Print Screen button; low level commands)
+- Ctrl + <Key> (terminal commands)
